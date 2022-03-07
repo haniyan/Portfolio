@@ -1,0 +1,53 @@
+.pointer-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .pointer {
+    position: relative;
+
+    span {
+      position: absolute;
+      height: 2px;
+      //left: -200px;
+      top: 0;
+      width: 100px;
+      transform-origin: right;
+      transform: rotate(calc(18deg * var(--i)));
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        background: #e7e7b4;
+        border-radius: 50%;
+        animation: projects_pointer 2s linear infinite;
+        animation-delay: calc(-0.5s*var(--i));
+        box-shadow: 0 0 10px #e7e7b4,
+        0 0 20px #e7e7b4,
+        0 0 40px #e7e7b4,
+        0 0 60px #e7e7b4,
+        0 0 80px #e7e7b4,
+        0 0 100px #e7e7b4;
+
+      }
+
+    }
+  }
+}
+
+@keyframes projects_pointer {
+
+  0% {
+    transform: translateX(0) scale(0.5);
+  }
+  50% {
+    transform: translateX(150px) scale(1);
+  }
+  100% {
+    transform: translateX(0) scale(0.5);
+  }
+
+}

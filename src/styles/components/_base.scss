@@ -29,16 +29,63 @@ body {
         height: 25rem;
         background-color: rgba(200, 234, 159, 0.38);
         border-radius: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        .project-snippet {
+          height: 170px;
+          width: 200px;
+          border-top-left-radius: 7rem;
+          border-top-right-radius: 7rem;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          transition: 1s;
+
+
+          &:hover {
+            transform: scale(1.3);
+          }
+
+        }
+
+        .project-title {
+          font-size: 2rem;
+        }
+
+        .stack-tech {
+          border: 1px solid red;
+          height: 70px;
+          width: 200px;
+
+        }
+
+
       }
 
       .col-left {
         .project-one {
           margin-left: 8rem;
+
+          .project-snippet {
+            background-image: url('../assets/CarSharing.png');
+          }
+
+
         }
 
         .project-two {
           margin-left: 5rem;
           margin-top: 4rem;
+
+          .project-snippet {
+            background-image: url('../assets/BestShop.png');
+          }
+
+
         }
 
         .project-three {
@@ -54,10 +101,18 @@ body {
         .project-four {
           margin-left: 7rem;
 
+          .project-snippet {
+            background-image: url('../assets/Verti.png');
+          }
+
         }
 
         .project-fife {
           margin-left: 22rem;
+
+          .project-snippet {
+            background-image: url('../assets/Baloons.png');
+          }
         }
 
         .project-six {
@@ -71,16 +126,28 @@ body {
 
         .project-seven {
           margin-left: 8rem;
+
+          .project-snippet {
+            background-image: url('../assets/ReadApp.png');
+          }
         }
 
         .project-eight {
           margin-left: 22rem;
-          margin-top: 10rem
+          margin-top: 10rem;
+
+          .project-snippet {
+            background-image: url('../assets/ShootingGame.png');
+          }
         }
 
         .project-nine {
           margin-left: 0.5rem;
           margin-top: 10rem;
+
+          .project-snippet {
+            background-image: url('../assets/HiIceland.png');
+          }
 
         }
       }

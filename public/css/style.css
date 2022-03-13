@@ -23,9 +23,9 @@ body .main-container .road-one .col {
   flex-direction: column;
 }
 body .main-container .road-one .project {
+  display: none;
   width: 18.75rem;
   height: 25rem;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -201,6 +201,11 @@ body .main-container .road-one .project .stack-tech {
   top: 16rem;
   left: 11rem;
 }
+.main-container .road-one .col-left .pointer-one .arrow-one {
+  top: -7rem;
+  left: -3rem;
+  background-image: url("../assets/arrows/pngs/4.png");
+}
 .main-container .road-one .col-left .project-two {
   position: absolute;
   top: 26rem;
@@ -214,6 +219,11 @@ body .main-container .road-one .project .stack-tech {
   top: 42rem;
   left: 8rem;
 }
+.main-container .road-one .col-left .pointer-two .arrow-two {
+  top: -7rem;
+  left: 9rem;
+  background-image: url("../assets/arrows/pngs/6.png");
+}
 .main-container .road-one .col-left .project-three {
   position: absolute;
   bottom: 2rem;
@@ -223,6 +233,11 @@ body .main-container .road-one .project .stack-tech {
   position: absolute;
   bottom: 8rem;
   left: 6rem;
+}
+.main-container .road-one .col-left .pointer-three .arrow-three {
+  top: -12rem;
+  left: 3rem;
+  background-image: url("../assets/arrows/pngs/5.png");
 }
 .main-container .road-one .col-middle {
   position: relative;
@@ -239,6 +254,11 @@ body .main-container .road-one .project .stack-tech {
   top: 8rem;
   left: 12rem;
 }
+.main-container .road-one .col-middle .pointer-four .arrow-four {
+  top: 2rem;
+  left: 9rem;
+  background-image: url("../assets/arrows/pngs/8.png");
+}
 .main-container .road-one .col-middle .project-fife {
   position: absolute;
   top: 28rem;
@@ -252,6 +272,11 @@ body .main-container .road-one .project .stack-tech {
   top: 35rem;
   left: 26rem;
 }
+.main-container .road-one .col-middle .pointer-fife .arrow-fife {
+  top: -10rem;
+  left: 9rem;
+  background-image: url("../assets/arrows/pngs/6.png");
+}
 .main-container .road-one .col-middle .project-six {
   position: absolute;
   bottom: 3rem;
@@ -261,6 +286,11 @@ body .main-container .road-one .project .stack-tech {
   position: absolute;
   bottom: 20rem;
   left: 6rem;
+}
+.main-container .road-one .col-middle .pointer-six .arrow-six {
+  top: -10rem;
+  left: 9rem;
+  background-image: url("../assets/arrows/pngs/6.png");
 }
 .main-container .road-one .col-right {
   position: relative;
@@ -277,6 +307,11 @@ body .main-container .road-one .project .stack-tech {
   top: 6rem;
   left: 10rem;
 }
+.main-container .road-one .col-right .pointer-seven .arrow-seven {
+  top: -4rem;
+  left: 12rem;
+  background-image: url("../assets/arrows/pngs/7.png");
+}
 .main-container .road-one .col-right .project-eight {
   position: absolute;
   top: 32rem;
@@ -290,6 +325,11 @@ body .main-container .road-one .project .stack-tech {
   top: 45rem;
   right: 15rem;
 }
+.main-container .road-one .col-right .pointer-eight .arrow-eight {
+  top: -11rem;
+  left: 3rem;
+  background-image: url("../assets/arrows/pngs/5.png");
+}
 .main-container .road-one .col-right .project-nine {
   position: absolute;
   bottom: 2rem;
@@ -302,6 +342,11 @@ body .main-container .road-one .project .stack-tech {
   position: absolute;
   bottom: 7rem;
   left: 4rem;
+}
+.main-container .road-one .col-right .pointer-nine .arrow-nine {
+  top: -11rem;
+  left: 10rem;
+  background-image: url("../assets/arrows/pngs/6.png");
 }
 .main-container .what-next {
   display: flex;
@@ -324,6 +369,9 @@ body .main-container .road-one .project .stack-tech {
           animation-duration: 3s;
 }
 
+.pointer-element {
+  cursor: pointer;
+}
 .pointer-element .pointer {
   position: relative;
 }
@@ -348,6 +396,14 @@ body .main-container .road-one .project .stack-tech {
   -webkit-animation-delay: calc(-0.5s * var(--i));
           animation-delay: calc(-0.5s * var(--i));
   box-shadow: 0 0 10px #e7e7b4, 0 0 20px #e7e7b4, 0 0 40px #e7e7b4, 0 0 60px #e7e7b4, 0 0 80px #e7e7b4, 0 0 100px #e7e7b4;
+}
+.pointer-element .pointer-arrow {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @-webkit-keyframes projects_pointer {

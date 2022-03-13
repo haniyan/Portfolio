@@ -1,4 +1,5 @@
 .pointer-element {
+  cursor: pointer;
 
   .pointer {
     position: relative;
@@ -21,7 +22,7 @@
         background: #e7e7b4;
         border-radius: 50%;
         animation: projects_pointer 2s linear infinite;
-        animation-delay: calc(-0.5s*var(--i));
+        animation-delay: calc(-0.5s * var(--i));
         box-shadow: 0 0 10px #e7e7b4,
         0 0 20px #e7e7b4,
         0 0 40px #e7e7b4,
@@ -32,6 +33,17 @@
       }
 
     }
+
+
+  }
+
+  .pointer-arrow {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 

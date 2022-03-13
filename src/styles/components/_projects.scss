@@ -19,6 +19,13 @@
         top: 16rem;
         left: 11rem;
 
+        .arrow-one {
+          top: -7rem;
+          left: -3rem;
+          background-image: url('../assets/arrows/pngs/4.png');
+
+        }
+
       }
 
 
@@ -40,6 +47,12 @@
         top: 42rem;
         left: 8rem;
 
+        .arrow-two {
+          top: -7rem;
+          left: 9rem;
+          background-image: url('../assets/arrows/pngs/6.png');
+        }
+
       }
 
 
@@ -54,6 +67,11 @@
         bottom: 8rem;
         left: 6rem;
 
+        .arrow-three {
+          top: -12rem;
+          left: 3rem;
+          background-image: url('../assets/arrows/pngs/5.png');
+        }
       }
 
     }
@@ -75,6 +93,12 @@
         position: absolute;
         top: 8rem;
         left: 12rem;
+
+        .arrow-four {
+          top: 2rem;
+          left: 9rem;
+          background-image: url('../assets/arrows/pngs/8.png');
+        }
       }
 
 
@@ -92,6 +116,12 @@
         position: absolute;
         top: 35rem;
         left: 26rem;
+
+        .arrow-fife {
+          top: -10rem;
+          left: 9rem;
+          background-image: url('../assets/arrows/pngs/6.png');
+        }
       }
 
       .project-six {
@@ -105,6 +135,12 @@
         position: absolute;
         bottom: 20rem;
         left: 6rem;
+
+        .arrow-six {
+          top: -10rem;
+          left: 9rem;
+          background-image: url('../assets/arrows/pngs/6.png');
+        }
       }
 
     }
@@ -125,12 +161,18 @@
         position: absolute;
         top: 6rem;
         left: 10rem;
+
+        .arrow-seven {
+          top: -4rem;
+          left: 12rem;
+          background-image: url('../assets/arrows/pngs/7.png');
+        }
       }
 
       .project-eight {
         position: absolute;
         top: 32rem;
-        right:0.5rem;
+        right: 0.5rem;
 
         .project-snippet {
           background-image: url('../assets/ShootingGame.png');
@@ -141,6 +183,11 @@
         position: absolute;
         top: 45rem;
         right: 15rem;
+        .arrow-eight {
+          top: -11rem;
+          left: 3rem;
+          background-image: url('../assets/arrows/pngs/5.png');
+        }
       }
 
       .project-nine {
@@ -158,6 +205,11 @@
         position: absolute;
         bottom: 7rem;
         left: 4rem;
+        .arrow-nine {
+          top: -11rem;
+          left: 10rem;
+          background-image: url('../assets/arrows/pngs/6.png');
+        }
       }
     }
   }

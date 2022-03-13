@@ -25,10 +25,12 @@ body {
       }
 
       .project {
-        //display: none;
+        display: none;
+
+        //display: flex;
+
         width: 18.75rem;
         height: 25rem;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;

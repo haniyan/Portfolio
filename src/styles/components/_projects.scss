@@ -5,6 +5,7 @@
       position: relative;
 
       .project-one {
+        position: absolute;
         margin-left: 8rem;
 
         .project-snippet {
@@ -22,8 +23,9 @@
 
 
       .project-two {
-        margin-left: 5rem;
-        margin-top: 4rem;
+        position: absolute;
+        top: 26rem;
+        left: 5rem;
 
 
         .project-snippet {
@@ -42,8 +44,9 @@
 
 
       .project-three {
-        margin-left: 3rem;
-        margin-top: 17rem;
+        position: absolute;
+        bottom: 2rem;
+        left: 3rem;
       }
 
       .pointer-three {
@@ -59,7 +62,8 @@
       position: relative;
 
       .project-four {
-        margin-left: 7rem;
+        position: absolute;
+        left: 9rem;
 
         .project-snippet {
           background-image: url('../assets/Verti.png');
@@ -75,7 +79,9 @@
 
 
       .project-fife {
-        margin-left: 22rem;
+        position: absolute;
+        top: 28rem;
+        left: 23rem;
 
         .project-snippet {
           background-image: url('../assets/Baloons.png');
@@ -89,8 +95,9 @@
       }
 
       .project-six {
-        margin-left: 2rem;
-        margin-top: 15rem;
+        position: absolute;
+        bottom: 3rem;
+        left: 3rem;
 
       }
 
@@ -106,7 +113,8 @@
       position: relative;
 
       .project-seven {
-        margin-left: 8rem;
+        position: absolute;
+        left: 6rem;
 
         .project-snippet {
           background-image: url('../assets/ReadApp.png');
@@ -120,8 +128,9 @@
       }
 
       .project-eight {
-        margin-left: 22rem;
-        margin-top: 10rem;
+        position: absolute;
+        top: 32rem;
+        right:0.5rem;
 
         .project-snippet {
           background-image: url('../assets/ShootingGame.png');
@@ -135,8 +144,9 @@
       }
 
       .project-nine {
-        margin-left: 0.5rem;
-        margin-top: 10rem;
+        position: absolute;
+        bottom: 2rem;
+        left: 1rem;
 
         .project-snippet {
           background-image: url('../assets/HiIceland.png');

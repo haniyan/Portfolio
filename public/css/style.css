@@ -190,6 +190,7 @@ body .main-container .road-one .project .stack-tech {
   position: relative;
 }
 .main-container .road-one .col-left .project-one {
+  position: absolute;
   margin-left: 8rem;
 }
 .main-container .road-one .col-left .project-one .project-snippet {
@@ -201,8 +202,9 @@ body .main-container .road-one .project .stack-tech {
   left: 11rem;
 }
 .main-container .road-one .col-left .project-two {
-  margin-left: 5rem;
-  margin-top: 4rem;
+  position: absolute;
+  top: 26rem;
+  left: 5rem;
 }
 .main-container .road-one .col-left .project-two .project-snippet {
   background-image: url("../assets/BestShop.png");
@@ -213,8 +215,9 @@ body .main-container .road-one .project .stack-tech {
   left: 8rem;
 }
 .main-container .road-one .col-left .project-three {
-  margin-left: 3rem;
-  margin-top: 17rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 3rem;
 }
 .main-container .road-one .col-left .pointer-three {
   position: absolute;
@@ -225,7 +228,8 @@ body .main-container .road-one .project .stack-tech {
   position: relative;
 }
 .main-container .road-one .col-middle .project-four {
-  margin-left: 7rem;
+  position: absolute;
+  left: 9rem;
 }
 .main-container .road-one .col-middle .project-four .project-snippet {
   background-image: url("../assets/Verti.png");
@@ -236,7 +240,9 @@ body .main-container .road-one .project .stack-tech {
   left: 12rem;
 }
 .main-container .road-one .col-middle .project-fife {
-  margin-left: 22rem;
+  position: absolute;
+  top: 28rem;
+  left: 23rem;
 }
 .main-container .road-one .col-middle .project-fife .project-snippet {
   background-image: url("../assets/Baloons.png");
@@ -247,8 +253,9 @@ body .main-container .road-one .project .stack-tech {
   left: 26rem;
 }
 .main-container .road-one .col-middle .project-six {
-  margin-left: 2rem;
-  margin-top: 15rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
 }
 .main-container .road-one .col-middle .pointer-six {
   position: absolute;
@@ -259,7 +266,8 @@ body .main-container .road-one .project .stack-tech {
   position: relative;
 }
 .main-container .road-one .col-right .project-seven {
-  margin-left: 8rem;
+  position: absolute;
+  left: 6rem;
 }
 .main-container .road-one .col-right .project-seven .project-snippet {
   background-image: url("../assets/ReadApp.png");
@@ -270,8 +278,9 @@ body .main-container .road-one .project .stack-tech {
   left: 10rem;
 }
 .main-container .road-one .col-right .project-eight {
-  margin-left: 22rem;
-  margin-top: 10rem;
+  position: absolute;
+  top: 32rem;
+  right: 0.5rem;
 }
 .main-container .road-one .col-right .project-eight .project-snippet {
   background-image: url("../assets/ShootingGame.png");
@@ -282,8 +291,9 @@ body .main-container .road-one .project .stack-tech {
   right: 15rem;
 }
 .main-container .road-one .col-right .project-nine {
-  margin-left: 0.5rem;
-  margin-top: 10rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
 }
 .main-container .road-one .col-right .project-nine .project-snippet {
   background-image: url("../assets/HiIceland.png");
@@ -314,11 +324,6 @@ body .main-container .road-one .project .stack-tech {
           animation-duration: 3s;
 }
 
-.pointer-element {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .pointer-element .pointer {
   position: relative;
 }

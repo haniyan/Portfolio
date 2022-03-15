@@ -20,10 +20,17 @@
         left: 11rem;
 
         .arrow-one {
-          top: -7rem;
-          left: -3rem;
-          background-image: url('../assets/arrows/pngs/4.png');
+          top: -6rem;
+          left: -1rem;
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(180deg);
+          transition: 0.5s;
 
+          &:hover {
+            top: -4rem;
+            left: 1rem;
+
+          }
         }
 
       }
@@ -50,7 +57,15 @@
         .arrow-two {
           top: -7rem;
           left: 9rem;
-          background-image: url('../assets/arrows/pngs/6.png');
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(270deg);
+          transition: 0.5s;
+
+          &:hover {
+            top: -5rem;
+            left: 7rem;
+
+          }
         }
 
       }
@@ -68,9 +83,17 @@
         left: 6rem;
 
         .arrow-three {
-          top: -12rem;
-          left: 3rem;
-          background-image: url('../assets/arrows/pngs/5.png');
+          top: -8rem;
+          left: 0;
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(180deg);
+          transition: 0.5s;
+
+          &:hover {
+            top: -5rem;
+            left: 2rem;
+
+          }
         }
       }
 
@@ -95,9 +118,17 @@
         left: 12rem;
 
         .arrow-four {
-          top: 2rem;
-          left: 9rem;
-          background-image: url('../assets/arrows/pngs/8.png');
+          top: 3rem;
+          left: 0;
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(90deg);
+          transition: 0.25s;
+
+          &:hover {
+            top: 0;
+            left: 1rem;
+
+          }
         }
       }
 
@@ -118,9 +149,17 @@
         left: 26rem;
 
         .arrow-fife {
-          top: -10rem;
+          top: -8rem;
           left: 9rem;
-          background-image: url('../assets/arrows/pngs/6.png');
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(260deg);
+          transition: 0.25s;
+
+          &:hover {
+            top: -6rem;
+            left: 7rem;
+          }
+
         }
       }
 
@@ -137,9 +176,16 @@
         left: 6rem;
 
         .arrow-six {
-          top: -10rem;
+          top: -7rem;
           left: 9rem;
-          background-image: url('../assets/arrows/pngs/6.png');
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(270deg);
+          transition: 0.25s;
+
+          &:hover {
+            top: -6rem;
+            left: 7rem;
+          }
         }
       }
 
@@ -163,9 +209,16 @@
         left: 10rem;
 
         .arrow-seven {
-          top: -4rem;
-          left: 12rem;
-          background-image: url('../assets/arrows/pngs/7.png');
+          top: 4rem;
+          left: -3rem;
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(90deg);
+          transition: 0.25s;
+
+          &:hover {
+            top: 1rem;
+            left: -1rem;
+          }
         }
       }
 
@@ -183,10 +236,18 @@
         position: absolute;
         top: 45rem;
         right: 15rem;
+
         .arrow-eight {
-          top: -11rem;
-          left: 3rem;
-          background-image: url('../assets/arrows/pngs/5.png');
+          top: -8rem;
+          left: -1rem;
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(180deg);
+          transition: 0.25s;
+
+          &:hover {
+            top: -6rem;
+            left: 1rem;
+          }
         }
       }
 
@@ -205,10 +266,18 @@
         position: absolute;
         bottom: 7rem;
         left: 4rem;
+
         .arrow-nine {
-          top: -11rem;
+          top: -7rem;
           left: 10rem;
-          background-image: url('../assets/arrows/pngs/6.png');
+          background-image: url('../assets/arrows/pngs/tap.png');
+          transform: rotate(270deg);
+          transition: 0.25s;
+
+          &:hover {
+            top: -5rem;
+            left: 7rem;
+          }
         }
       }
     }

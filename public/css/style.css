@@ -202,9 +202,15 @@ body .main-container .road-one .project .stack-tech {
   left: 11rem;
 }
 .main-container .road-one .col-left .pointer-one .arrow-one {
-  top: -7rem;
-  left: -3rem;
-  background-image: url("../assets/arrows/pngs/4.png");
+  top: -6rem;
+  left: -1rem;
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.main-container .road-one .col-left .pointer-one .arrow-one:hover {
+  top: -4rem;
+  left: 1rem;
 }
 .main-container .road-one .col-left .project-two {
   position: absolute;
@@ -222,7 +228,13 @@ body .main-container .road-one .project .stack-tech {
 .main-container .road-one .col-left .pointer-two .arrow-two {
   top: -7rem;
   left: 9rem;
-  background-image: url("../assets/arrows/pngs/6.png");
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(270deg);
+  transition: 0.5s;
+}
+.main-container .road-one .col-left .pointer-two .arrow-two:hover {
+  top: -5rem;
+  left: 7rem;
 }
 .main-container .road-one .col-left .project-three {
   position: absolute;
@@ -235,9 +247,15 @@ body .main-container .road-one .project .stack-tech {
   left: 6rem;
 }
 .main-container .road-one .col-left .pointer-three .arrow-three {
-  top: -12rem;
-  left: 3rem;
-  background-image: url("../assets/arrows/pngs/5.png");
+  top: -8rem;
+  left: 0;
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.main-container .road-one .col-left .pointer-three .arrow-three:hover {
+  top: -5rem;
+  left: 2rem;
 }
 .main-container .road-one .col-middle {
   position: relative;
@@ -255,9 +273,15 @@ body .main-container .road-one .project .stack-tech {
   left: 12rem;
 }
 .main-container .road-one .col-middle .pointer-four .arrow-four {
-  top: 2rem;
-  left: 9rem;
-  background-image: url("../assets/arrows/pngs/8.png");
+  top: 3rem;
+  left: 0;
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(90deg);
+  transition: 0.25s;
+}
+.main-container .road-one .col-middle .pointer-four .arrow-four:hover {
+  top: 0;
+  left: 1rem;
 }
 .main-container .road-one .col-middle .project-fife {
   position: absolute;
@@ -273,9 +297,15 @@ body .main-container .road-one .project .stack-tech {
   left: 26rem;
 }
 .main-container .road-one .col-middle .pointer-fife .arrow-fife {
-  top: -10rem;
+  top: -8rem;
   left: 9rem;
-  background-image: url("../assets/arrows/pngs/6.png");
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(260deg);
+  transition: 0.25s;
+}
+.main-container .road-one .col-middle .pointer-fife .arrow-fife:hover {
+  top: -6rem;
+  left: 7rem;
 }
 .main-container .road-one .col-middle .project-six {
   position: absolute;
@@ -288,9 +318,15 @@ body .main-container .road-one .project .stack-tech {
   left: 6rem;
 }
 .main-container .road-one .col-middle .pointer-six .arrow-six {
-  top: -10rem;
+  top: -7rem;
   left: 9rem;
-  background-image: url("../assets/arrows/pngs/6.png");
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(270deg);
+  transition: 0.25s;
+}
+.main-container .road-one .col-middle .pointer-six .arrow-six:hover {
+  top: -6rem;
+  left: 7rem;
 }
 .main-container .road-one .col-right {
   position: relative;
@@ -308,9 +344,15 @@ body .main-container .road-one .project .stack-tech {
   left: 10rem;
 }
 .main-container .road-one .col-right .pointer-seven .arrow-seven {
-  top: -4rem;
-  left: 12rem;
-  background-image: url("../assets/arrows/pngs/7.png");
+  top: 4rem;
+  left: -3rem;
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(90deg);
+  transition: 0.25s;
+}
+.main-container .road-one .col-right .pointer-seven .arrow-seven:hover {
+  top: 1rem;
+  left: -1rem;
 }
 .main-container .road-one .col-right .project-eight {
   position: absolute;
@@ -326,9 +368,15 @@ body .main-container .road-one .project .stack-tech {
   right: 15rem;
 }
 .main-container .road-one .col-right .pointer-eight .arrow-eight {
-  top: -11rem;
-  left: 3rem;
-  background-image: url("../assets/arrows/pngs/5.png");
+  top: -8rem;
+  left: -1rem;
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(180deg);
+  transition: 0.25s;
+}
+.main-container .road-one .col-right .pointer-eight .arrow-eight:hover {
+  top: -6rem;
+  left: 1rem;
 }
 .main-container .road-one .col-right .project-nine {
   position: absolute;
@@ -344,9 +392,15 @@ body .main-container .road-one .project .stack-tech {
   left: 4rem;
 }
 .main-container .road-one .col-right .pointer-nine .arrow-nine {
-  top: -11rem;
+  top: -7rem;
   left: 10rem;
-  background-image: url("../assets/arrows/pngs/6.png");
+  background-image: url("../assets/arrows/pngs/tap.png");
+  transform: rotate(270deg);
+  transition: 0.25s;
+}
+.main-container .road-one .col-right .pointer-nine .arrow-nine:hover {
+  top: -5rem;
+  left: 7rem;
 }
 .main-container .what-next {
   display: flex;
@@ -399,8 +453,8 @@ body .main-container .road-one .project .stack-tech {
 }
 .pointer-element .pointer-arrow {
   position: absolute;
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

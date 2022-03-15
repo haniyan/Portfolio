@@ -19,6 +19,16 @@
         top: 16rem;
         left: 11rem;
 
+        &:hover {
+          .arrow-one {
+            top: -4rem;
+            left: 1rem;
+
+          }
+
+
+        }
+
         .arrow-one {
           top: -6rem;
           left: -1rem;
@@ -26,11 +36,6 @@
           transform: rotate(180deg);
           transition: 0.5s;
 
-          &:hover {
-            top: -4rem;
-            left: 1rem;
-
-          }
         }
 
       }
@@ -54,6 +59,13 @@
         top: 42rem;
         left: 8rem;
 
+        &:hover {
+          .arrow-two {
+            top: -5rem;
+            left: 7rem;
+          }
+        }
+
         .arrow-two {
           top: -7rem;
           left: 9rem;
@@ -61,11 +73,7 @@
           transform: rotate(270deg);
           transition: 0.5s;
 
-          &:hover {
-            top: -5rem;
-            left: 7rem;
 
-          }
         }
 
       }
@@ -82,18 +90,21 @@
         bottom: 8rem;
         left: 6rem;
 
+        &:hover {
+          .arrow-three {
+            top: -5rem;
+            left: 2rem;
+          }
+        }
+
         .arrow-three {
           top: -8rem;
           left: 0;
           background-image: url('../assets/arrows/pngs/tap.png');
           transform: rotate(180deg);
-          transition: 0.5s;
+          transition: 0.25s;
 
-          &:hover {
-            top: -5rem;
-            left: 2rem;
 
-          }
         }
       }
 
@@ -117,18 +128,19 @@
         top: 8rem;
         left: 12rem;
 
+        &:hover {
+          .arrow-four {
+            top: 0;
+            left: 1rem;
+          }
+        }
+
         .arrow-four {
           top: 3rem;
           left: 0;
           background-image: url('../assets/arrows/pngs/tap.png');
           transform: rotate(90deg);
           transition: 0.25s;
-
-          &:hover {
-            top: 0;
-            left: 1rem;
-
-          }
         }
       }
 
@@ -148,6 +160,13 @@
         top: 35rem;
         left: 26rem;
 
+        &:hover {
+          .arrow-fife {
+            top: -6rem;
+            left: 7rem;
+          }
+        }
+
         .arrow-fife {
           top: -8rem;
           left: 9rem;
@@ -155,10 +174,6 @@
           transform: rotate(260deg);
           transition: 0.25s;
 
-          &:hover {
-            top: -6rem;
-            left: 7rem;
-          }
 
         }
       }
@@ -175,6 +190,13 @@
         bottom: 20rem;
         left: 6rem;
 
+        &:hover {
+          .arrow-six {
+            top: -6rem;
+            left: 7rem;
+          }
+        }
+
         .arrow-six {
           top: -7rem;
           left: 9rem;
@@ -182,10 +204,7 @@
           transform: rotate(270deg);
           transition: 0.25s;
 
-          &:hover {
-            top: -6rem;
-            left: 7rem;
-          }
+
         }
       }
 
@@ -208,17 +227,21 @@
         top: 6rem;
         left: 10rem;
 
+        &:hover {
+          .arrow-seven {
+            top: 1rem;
+            left: -1rem;
+          }
+        }
+
         .arrow-seven {
-          top: 4rem;
-          left: -3rem;
+          top: 3rem;
+          left: -2rem;
           background-image: url('../assets/arrows/pngs/tap.png');
           transform: rotate(90deg);
           transition: 0.25s;
 
-          &:hover {
-            top: 1rem;
-            left: -1rem;
-          }
+
         }
       }
 
@@ -237,17 +260,21 @@
         top: 45rem;
         right: 15rem;
 
+        &:hover {
+          .arrow-eight {
+            top: -5rem;
+            left: 1rem;
+          }
+        }
+
         .arrow-eight {
-          top: -8rem;
+          top: -7rem;
           left: -1rem;
           background-image: url('../assets/arrows/pngs/tap.png');
           transform: rotate(180deg);
           transition: 0.25s;
 
-          &:hover {
-            top: -6rem;
-            left: 1rem;
-          }
+
         }
       }
 
@@ -267,6 +294,13 @@
         bottom: 7rem;
         left: 4rem;
 
+        &:hover {
+          .arrow-nine {
+            top: -5rem;
+            left: 7rem;
+          }
+        }
+
         .arrow-nine {
           top: -7rem;
           left: 10rem;
@@ -274,10 +308,7 @@
           transform: rotate(270deg);
           transition: 0.25s;
 
-          &:hover {
-            top: -5rem;
-            left: 7rem;
-          }
+
         }
       }
     }
@@ -292,15 +323,5 @@
     height: 8rem;
   }
 
-  .road-two {
-    width: 100%;
-    height: 1536px;
-    background-image: url('../assets/background/Map2.1.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    animation-name: boat;
-    animation-duration: 3s;
 
-  }
 }

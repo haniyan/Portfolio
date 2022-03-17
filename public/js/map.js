@@ -59,9 +59,16 @@ const showProjectOne = ()=>{
 }
 
 const showProjectTwo = ()=>{
-    projectTwo.style.display = "flex";
+    setTimeout(()=>{projectTwo.style.display = "flex"},5000);
 
+    mainCharacter.style.transform= "scale(-1,1)";
+    mainCharacter.style.animation = "moveToProjectTwo 4s linear alternate"
+    setTimeout(()=>{
+        mainCharacter.style.top= "29rem";
+        mainCharacter.style.left= "23rem";
+        mainCharacter.style.animation = "handPointer 1s infinite linear alternate"}, 4000)
 }
+
 
 const showProjectThree = ()=>{
     projectThree.style.display = "flex";
@@ -69,12 +76,34 @@ const showProjectThree = ()=>{
 }
 
 const showProjectFour = ()=>{
-    projectFour.style.display = "flex";
-
+    setTimeout(()=>{projectFour.style.display = "flex"},5000);
+    mainCharacter.style.transform= "scale(1,1)";
+    mainCharacter.style.animation = "moveToProjectFour 4s linear alternate"
+    setTimeout(()=>{
+        mainCharacter.style.top= "5rem";
+        mainCharacter.style.left= "42rem";
+        mainCharacter.style.animation = "handPointer 1s infinite linear alternate"}, 4000)
 }
 
 const showProjectFife = ()=>{
-    projectFife.style.display = "flex";
+    setTimeout(()=>{projectFife.style.display = "flex"},14000);
+
+    mainCharacter.style.animation = "moveToProjectFifeTillStopPoint 6s linear alternate"
+    setTimeout(()=>{
+        mainCharacter.style.top= "44rem";
+        mainCharacter.style.left= "14rem";
+        mainCharacter.style.transform= "scale(1,1)";
+    //dodac div dymek z informacją że nie było drogi na skróty
+
+    }, 4000)
+
+    setTimeout(()=>{
+        mainCharacter.style.animation = "moveToProjectFifeFromStopPoint 6s linear alternate"
+        mainCharacter.style.top= "35rem";
+        mainCharacter.style.left= "56rem";
+        setTimeout(()=>{  mainCharacter.style.animation = "handPointer 1s infinite linear alternate"},6000)
+    },8000)
+
 
 }
 
@@ -84,7 +113,13 @@ const showProjectSix = ()=>{
 }
 
 const showProjectSeven = ()=>{
-    projectSeven.style.display = "flex";
+
+    setTimeout(()=>{ projectSeven.style.display = "flex";},7000);
+    mainCharacter.style.animation = "moveToProjectSeven 6s linear alternate"
+    setTimeout(()=>{
+        mainCharacter.style.top= "5rem";
+        mainCharacter.style.left= "82rem";
+        mainCharacter.style.animation = "handPointer 1s infinite linear alternate"}, 6000)
 
 }
 
@@ -103,6 +138,7 @@ const hideProjectOne = ()=>{
     projectOne.style.display = "none";
     arrowOne.style.display = "none";
     arrowFour.style.display = "inline-block";
+    mainCharacter.style.transform= "scale(1,1)";
 }
 
 const hideProjectTwo = ()=>{
@@ -115,7 +151,7 @@ const hideProjectThree = ()=>{
     projectThree.style.display = "none";
     arrowThree.style.display = "none";
     arrowFour.style.display = "inline-block";
-    mapView.style.animation = "boat 4s  linear alternate";
+    mapView.style.animation = "boat 4s linear alternate";
 }
 
 const hideProjectFour = ()=>{
@@ -155,31 +191,60 @@ const hideProjectNine = ()=>{
     arrowSix.style.display = "inline-block";
 }
 
+const delayProjectOne = ()=>{
+    setTimeout(showProjectOne, 100)
+}
 
-pointerOne.addEventListener("click", showProjectOne);
+const delayProjectTwo = ()=>{
+    setTimeout(showProjectTwo, 300)
+}
+const delayProjectThree = ()=>{
+    setTimeout(showProjectThree, 300)
+}
+const delayProjectFour = ()=>{
+    setTimeout(showProjectFour, 300)
+}
+const delayProjectFife = ()=>{
+    setTimeout(showProjectFife, 300)
+}
+const delayProjectSix = ()=>{
+    setTimeout(showProjectSix, 300)
+}
+const delayProjectSeven = ()=>{
+    setTimeout(showProjectSeven, 300)
+}
+const delayProjectEight = ()=>{
+    setTimeout(showProjectEight, 300)
+}
+const delayProjectNine = ()=>{
+    setTimeout(showProjectNine, 300)
+}
+
+
+pointerOne.addEventListener("click", delayProjectOne);
 projectOne.addEventListener("click", hideProjectOne);
 
-pointerTwo.addEventListener("click", showProjectTwo);
+pointerTwo.addEventListener("click", delayProjectTwo);
 projectTwo.addEventListener("click", hideProjectTwo);
 
-pointerThree.addEventListener("click", showProjectThree);
+pointerThree.addEventListener("click", delayProjectThree);
 projectThree.addEventListener("click", hideProjectThree);
 
-pointerFour.addEventListener("click", showProjectFour);
+pointerFour.addEventListener("click", delayProjectFour);
 projectFour.addEventListener("click", hideProjectFour);
 
-pointerFife.addEventListener("click", showProjectFife);
+pointerFife.addEventListener("click", delayProjectFife);
 projectFife.addEventListener("click", hideProjectFife);
 
-pointerSix.addEventListener("click", showProjectSix);
+pointerSix.addEventListener("click", delayProjectSix);
 projectSix.addEventListener("click", hideProjectSix);
 
-pointerSeven.addEventListener("click", showProjectSeven);
+pointerSeven.addEventListener("click", delayProjectSeven);
 projectSeven.addEventListener("click", hideProjectSeven);
 
-pointerEight.addEventListener("click", showProjectEight);
+pointerEight.addEventListener("click", delayProjectEight);
 projectEight.addEventListener("click", hideProjectEight);
 
-pointerNine.addEventListener("click", showProjectNine);
+pointerNine.addEventListener("click", delayProjectNine);
 projectNine.addEventListener("click", hideProjectNine);
 

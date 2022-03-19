@@ -1,3 +1,98 @@
+.main-container .parallel {
+  overflow-x: hidden;
+  width: 100%;
+  height: 1536px;
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.main-container .parallel .parallel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  pointer-events: none;
+}
+.main-container .parallel .back-two {
+  z-index: 1;
+}
+.main-container .parallel .back-three {
+  z-index: 2;
+}
+.main-container .parallel .back-four {
+  z-index: 3;
+  transform: scale(-1, 1);
+}
+.main-container .parallel .back-fife {
+  z-index: 4;
+}
+.main-container .parallel .back-six {
+  z-index: 5;
+}
+.main-container .parallel .back-seven {
+  z-index: 5;
+}
+.main-container .view-one {
+  margin-bottom: 0;
+}
+.main-container .view-one .say-hi {
+  margin-right: 12rem;
+  position: absolute;
+  color: rgba(255, 192, 203, 0.52);
+  font-size: 2vh;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  z-index: 100;
+}
+.main-container .view-one .say-hi span {
+  font-size: 5vh;
+  letter-spacing: 1rem;
+  line-height: 0.75em;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Rancho", cursive;
+}
+.main-container .view-one::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #6e5355, transparent);
+  z-index: 10;
+}
+.main-container .view-two {
+  margin-top: 0;
+}
+.main-container .view-two .story {
+  margin-right: 12rem;
+  position: absolute;
+  color: rgba(255, 192, 203, 0.52);
+  font-size: 4vh;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  z-index: 100;
+}
+.main-container .view-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, #6e5355, transparent);
+  z-index: 10;
+}
+
 body {
   background-color: rgba(151, 181, 243, 0.82);
   display: flex;
@@ -6,7 +101,7 @@ body {
 }
 body .main-container {
   width: 2048px;
-  height: 100%;
+  height: 1000000px;
 }
 body .main-container .road-one {
   width: 100%;
@@ -1351,6 +1446,132 @@ body .main-container .road-two {
   100% {
     top: 5rem;
     left: 82rem;
+    background-image: url("../assets/character/Walk19.png");
+  }
+}
+@-webkit-keyframes goToRight {
+  0% {
+    left: 5rem;
+    bottom: 6rem;
+    background-image: url("../assets/character/Walk1.png");
+  }
+  10% {
+    background-image: url("../assets/character/Walk2.png");
+  }
+  15% {
+    background-image: url("../assets/character/Walk3.png");
+  }
+  20% {
+    background-image: url("../assets/character/Walk4.png");
+  }
+  25% {
+    background-image: url("../assets/character/Walk5.png");
+  }
+  30% {
+    background-image: url("../assets/character/Walk6.png");
+  }
+  35% {
+    background-image: url("../assets/character/Walk7.png");
+  }
+  40% {
+    background-image: url("../assets/character/Walk8.png");
+  }
+  45% {
+    background-image: url("../assets/character/Walk9.png");
+  }
+  50% {
+    background-image: url("../assets/character/Walk10.png");
+  }
+  55% {
+    background-image: url("../assets/character/Walk11.png");
+  }
+  60% {
+    background-image: url("../assets/character/Walk12.png");
+  }
+  65% {
+    background-image: url("../assets/character/Walk13.png");
+  }
+  70% {
+    background-image: url("../assets/character/Walk14.png");
+  }
+  75% {
+    background-image: url("../assets/character/Walk15.png");
+  }
+  80% {
+    background-image: url("../assets/character/Walk16.png");
+  }
+  85% {
+    background-image: url("../assets/character/Walk17.png");
+  }
+  90% {
+    background-image: url("../assets/character/Walk18.png");
+  }
+  100% {
+    left: 90rem;
+    bottom: 6rem;
+    background-image: url("../assets/character/Walk19.png");
+  }
+}
+@keyframes goToRight {
+  0% {
+    left: 5rem;
+    bottom: 6rem;
+    background-image: url("../assets/character/Walk1.png");
+  }
+  10% {
+    background-image: url("../assets/character/Walk2.png");
+  }
+  15% {
+    background-image: url("../assets/character/Walk3.png");
+  }
+  20% {
+    background-image: url("../assets/character/Walk4.png");
+  }
+  25% {
+    background-image: url("../assets/character/Walk5.png");
+  }
+  30% {
+    background-image: url("../assets/character/Walk6.png");
+  }
+  35% {
+    background-image: url("../assets/character/Walk7.png");
+  }
+  40% {
+    background-image: url("../assets/character/Walk8.png");
+  }
+  45% {
+    background-image: url("../assets/character/Walk9.png");
+  }
+  50% {
+    background-image: url("../assets/character/Walk10.png");
+  }
+  55% {
+    background-image: url("../assets/character/Walk11.png");
+  }
+  60% {
+    background-image: url("../assets/character/Walk12.png");
+  }
+  65% {
+    background-image: url("../assets/character/Walk13.png");
+  }
+  70% {
+    background-image: url("../assets/character/Walk14.png");
+  }
+  75% {
+    background-image: url("../assets/character/Walk15.png");
+  }
+  80% {
+    background-image: url("../assets/character/Walk16.png");
+  }
+  85% {
+    background-image: url("../assets/character/Walk17.png");
+  }
+  90% {
+    background-image: url("../assets/character/Walk18.png");
+  }
+  100% {
+    left: 90rem;
+    bottom: 6rem;
     background-image: url("../assets/character/Walk19.png");
   }
 }

@@ -1,4 +1,11 @@
-@import "components/base";
-@import "components/projects";
-@import "components/projects_pointer";
-@import "components/character";
+//View 1
+@import "paralellView/view1/viewOne";
+
+
+
+
+//Interactive Map
+@import "components_interactive_map/base";
+@import "components_interactive_map/projects";
+@import "components_interactive_map/projects_pointer";
+@import "components_interactive_map/character";

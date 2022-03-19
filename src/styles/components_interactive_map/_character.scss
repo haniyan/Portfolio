@@ -1,6 +1,4 @@
-
-
-@keyframes basePose{
+@keyframes basePose {
   0% {
     background-image: url('../assets/character/Idle_1.png');
   }
@@ -61,7 +59,7 @@
 
 }
 
-@keyframes handPointer{
+@keyframes handPointer {
   0% {
     background-image: url('../assets/character/Hand1.png');
   }
@@ -92,9 +90,9 @@
 
 }
 
-@keyframes moveToProjectFour{
+@keyframes moveToProjectFour {
   0% {
-    top:11rem;
+    top: 11rem;
     left: 21rem;
     background-image: url('../assets/character/Walk1.png');
   }
@@ -112,7 +110,7 @@
     background-image: url('../assets/character/Walk5.png');
   }
   30% {
-    top:10rem;
+    top: 10rem;
     left: 25rem;
     background-image: url('../assets/character/Walk6.png');
   }
@@ -132,7 +130,7 @@
     background-image: url('../assets/character/Walk11.png');
   }
   60% {
-    top:7rem;
+    top: 7rem;
     left: 32rem;
     background-image: url('../assets/character/Walk12.png');
   }
@@ -155,16 +153,16 @@
     background-image: url('../assets/character/Walk18.png');
   }
   100% {
-    top:5rem;
+    top: 5rem;
     left: 42rem;
     background-image: url('../assets/character/Walk19.png');
   }
 
 }
 
-@keyframes moveToProjectTwo{
+@keyframes moveToProjectTwo {
   0% {
-    top:5rem;
+    top: 5rem;
     left: 42rem;
     background-image: url('../assets/character/Walk1.png');
   }
@@ -182,7 +180,7 @@
     background-image: url('../assets/character/Walk5.png');
   }
   30% {
-    top:10rem;
+    top: 10rem;
     left: 39rem;
     background-image: url('../assets/character/Walk6.png');
   }
@@ -196,7 +194,7 @@
     background-image: url('../assets/character/Walk9.png');
   }
   50% {
-    top:17rem;
+    top: 17rem;
 
     background-image: url('../assets/character/Walk10.png');
   }
@@ -204,12 +202,12 @@
     background-image: url('../assets/character/Walk11.png');
   }
   60% {
-    top:19rem;
+    top: 19rem;
     left: 35rem;
     background-image: url('../assets/character/Walk12.png');
   }
   65% {
-    top:23rem;
+    top: 23rem;
     left: 34rem;
     background-image: url('../assets/character/Walk13.png');
   }
@@ -217,7 +215,7 @@
     background-image: url('../assets/character/Walk14.png');
   }
   75% {
-    top:24rem;
+    top: 24rem;
     left: 32rem;
     background-image: url('../assets/character/Walk15.png');
   }
@@ -233,24 +231,24 @@
     background-image: url('../assets/character/Walk18.png');
   }
   100% {
-    top:29rem;
-    left:23rem;
+    top: 29rem;
+    left: 23rem;
     background-image: url('../assets/character/Walk19.png');
   }
 
 }
 
-@keyframes moveToProjectFifeTillStopPoint{
+@keyframes moveToProjectFifeTillStopPoint {
   0% {
-    top:29rem;
-    left:23rem;
+    top: 29rem;
+    left: 23rem;
     background-image: url('../assets/character/Walk1.png');
   }
   10% {
     background-image: url('../assets/character/Walk2.png');
   }
   20% {
-    top:32rem;
+    top: 32rem;
     left: 17rem;
     background-image: url('../assets/character/Walk3.png');
   }
@@ -258,86 +256,85 @@
     background-image: url('../assets/character/Walk5.png');
   }
   40% {
-    top:33rem;
+    top: 33rem;
     left: 12rem;
     background-image: url('../assets/character/Walk7.png');
   }
   50% {
-    top:34rem;
+    top: 34rem;
     left: 10rem;
     background-image: url('../assets/character/Walk9.png');
   }
   60% {
-    top:35rem;
+    top: 35rem;
     left: 10rem;
     background-image: url('../assets/character/Walk11.png');
   }
   70% {
-    top:36rem;
+    top: 36rem;
     left: 11rem;
 
     background-image: url('../assets/character/Walk13.png');
   }
   800% {
-    top:39rem;
+    top: 39rem;
     left: 12rem;
 
     background-image: url('../assets/character/Walk15.png');
   }
   90% {
-    top:41rem;
+    top: 41rem;
     left: 13rem;
 
     background-image: url('../assets/character/Walk17.png');
   }
   100% {
-    top:44rem;
+    top: 44rem;
     left: 14rem;
     background-image: url('../assets/character/Walk20.png');
   }
 
 
-
 }
 
-@keyframes moveToProjectFifeFromStopPoint{
+@keyframes moveToProjectFifeFromStopPoint {
   0% {
-    top:44rem;
+    top: 44rem;
     left: 14rem;
     background-image: url('../assets/character/Walk1.png');
   }
   10% {
-    top:43rem;
+    top: 43rem;
     left: 15rem;
     background-image: url('../assets/character/Walk2.png');
   }
   15% {
-    top:43rem;
+    top: 43rem;
     left: 20rem;
     background-image: url('../assets/character/Walk3.png');
   }
   20% {
-    top:42rem;
+    top: 42rem;
     left: 23rem;
     background-image: url('../assets/character/Walk4.png');
   }
   25% {
-    top:42rem;
+    top: 42rem;
     left: 27rem;
     background-image: url('../assets/character/Walk5.png');
   }
   30% {
-    top:42rem;
+    top: 42rem;
     left: 29rem;
     background-image: url('../assets/character/Walk6.png');
   }
   35% {
-    top:42rem;
+    top: 42rem;
     left: 31rem;
     background-image: url('../assets/character/Walk7.png');
   }
   40% {
-    top:42rem;
+    top: 42rem;
     left: 33rem;
     background-image: url('../assets/character/Walk8.png');
   }
@@ -345,7 +342,7 @@
     background-image: url('../assets/character/Walk9.png');
   }
   50% {
-    top:42rem;
+    top: 42rem;
     left: 36rem;
     background-image: url('../assets/character/Walk10.png');
   }
@@ -353,53 +350,53 @@
     background-image: url('../assets/character/Walk11.png');
   }
   60% {
-    top:42rem;
+    top: 42rem;
     left: 40rem;
     background-image: url('../assets/character/Walk12.png');
   }
   65% {
-    top:41rem;
+    top: 41rem;
     left: 45rem;
     background-image: url('../assets/character/Walk13.png');
   }
   70% {
-    top:39rem;
+    top: 39rem;
     left: 47rem;
     background-image: url('../assets/character/Walk14.png');
   }
   75% {
-    top:37rem;
+    top: 37rem;
     left: 52rem;
     background-image: url('../assets/character/Walk15.png');
   }
   80% {
-    top:37rem;
+    top: 37rem;
     left: 53rem;
     background-image: url('../assets/character/Walk16.png');
   }
   85% {
-    top:36rem;
+    top: 36rem;
     left: 54rem;
     background-image: url('../assets/character/Walk17.png');
   }
   90% {
-    top:36rem;
+    top: 36rem;
     left: 55rem;
     background-image: url('../assets/character/Walk18.png');
   }
   100% {
-    top:35rem;
-    left:56rem;
+    top: 35rem;
+    left: 56rem;
     background-image: url('../assets/character/Walk19.png');
   }
 
 }
 
 
-@keyframes moveToProjectSeven{
+@keyframes moveToProjectSeven {
   0% {
-    top:35rem;
-    left:56rem;
+    top: 35rem;
+    left: 56rem;
     background-image: url('../assets/character/Walk1.png');
   }
   10% {
@@ -449,8 +446,8 @@
     background-image: url('../assets/character/Walk13.png');
   }
   70% {
-    top:18rem;
-    left:82rem;
+    top: 18rem;
+    left: 82rem;
     background-image: url('../assets/character/Walk14.png');
   }
   75% {
@@ -470,8 +467,87 @@
     background-image: url('../assets/character/Walk18.png');
   }
   100% {
-    top:5rem;
-    left:82rem;
+    top: 5rem;
+    left: 82rem;
+    background-image: url('../assets/character/Walk19.png');
+  }
+
+}
+
+@keyframes goToRight {
+  0% {
+    left: 5rem;
+    bottom: 6rem;
+    background-image: url('../assets/character/Walk1.png');
+  }
+  10% {
+
+    background-image: url('../assets/character/Walk2.png');
+  }
+  15% {
+
+    background-image: url('../assets/character/Walk3.png');
+  }
+  20% {
+
+    background-image: url('../assets/character/Walk4.png');
+  }
+  25% {
+
+    background-image: url('../assets/character/Walk5.png');
+  }
+  30% {
+
+    background-image: url('../assets/character/Walk6.png');
+  }
+  35% {
+
+    background-image: url('../assets/character/Walk7.png');
+  }
+  40% {
+
+    background-image: url('../assets/character/Walk8.png');
+  }
+  45% {
+    background-image: url('../assets/character/Walk9.png');
+  }
+  50% {
+
+    background-image: url('../assets/character/Walk10.png');
+  }
+  55% {
+    background-image: url('../assets/character/Walk11.png');
+  }
+  60% {
+
+    background-image: url('../assets/character/Walk12.png');
+  }
+  65% {
+
+    background-image: url('../assets/character/Walk13.png');
+  }
+  70% {
+    background-image: url('../assets/character/Walk14.png');
+  }
+  75% {
+
+    background-image: url('../assets/character/Walk15.png');
+  }
+  80% {
+
+    background-image: url('../assets/character/Walk16.png');
+  }
+  85% {
+
+    background-image: url('../assets/character/Walk17.png');
+  }
+  90% {
+
+    background-image: url('../assets/character/Walk18.png');
+  }
+  100% {
+    left: 90rem;
+    bottom: 6rem;
     background-image: url('../assets/character/Walk19.png');
   }
 

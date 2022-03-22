@@ -50,25 +50,24 @@
 
   .view-one{
     margin-bottom: 0;
-    .say-hi {
+    .say-something {
+      font-size: 4vh;
+      letter-spacing: 1rem;
+      line-height: 1.75em;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-family: 'Rancho', cursive;
       margin-right: 12rem;
       position: absolute;
       color: rgba(255, 192, 203, 0.52);
-      font-size: 2vh;
+      //font-size: 2vh;
       text-align: center;
-      letter-spacing: 2px;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 400;
+      //letter-spacing: 2px;
+      //font-family: 'Poppins', sans-serif;
+      //font-weight: 400;
       z-index: 100;
 
-      span {
-        font-size: 5vh;
-        letter-spacing: 1rem;
-        line-height: 0.75em;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-family: 'Rancho', cursive;
-      }
+
 
     }
     &::before {

@@ -35,7 +35,13 @@
   z-index: 5;
 }
 .main-container .parallel .back-seven {
-  z-index: 5;
+  z-index: 6;
+}
+.main-container .parallel .back-eight {
+  z-index: 7;
+}
+.main-container .parallel .back-nine {
+  z-index: 8;
 }
 .main-container .view-one {
   margin-bottom: 0;
@@ -51,7 +57,7 @@
   position: absolute;
   color: rgba(255, 192, 203, 0.52);
   text-align: center;
-  z-index: 100;
+  z-index: 10;
 }
 .main-container .view-one::before {
   content: "";
@@ -95,7 +101,7 @@ body {
 }
 body .main-container {
   width: 2048px;
-  height: 10000px;
+  height: auto;
 }
 body .main-container .road-one {
   width: 100%;

@@ -47,7 +47,7 @@
   margin-bottom: 0;
 }
 .main-container .view-one .say-something {
-  font-size: 4vh;
+  font-size: 3vh;
   letter-spacing: 1rem;
   line-height: 1.75em;
   text-transform: uppercase;
@@ -55,7 +55,7 @@
   font-family: "Rancho", cursive;
   margin-right: 12rem;
   position: absolute;
-  color: rgba(255, 192, 203, 0.52);
+  color: #dadaa3;
   text-align: center;
   z-index: 10;
 }

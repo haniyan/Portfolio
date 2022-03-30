@@ -80,17 +80,17 @@
 
     }
 
-    &::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100px;
-      background: linear-gradient(to top, #6e5355, transparent);
-      z-index: 10;
-
-    }
+    //&::before {
+    //  content: "";
+    //  position: absolute;
+    //  bottom: 0;
+    //  left: 0;
+    //  width: 100%;
+    //  height: 100px;
+    //  background: linear-gradient(to top, #6e5355, transparent);
+    //  z-index: 10;
+    //
+    //}
 
   }
 

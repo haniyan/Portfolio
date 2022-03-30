@@ -176,10 +176,10 @@ const showBackgroundTwo = () => {
     setTimeout(() => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Każdego dnia idąc do pracy";
-        for (let i = 0; i <= 6; i++) {
+        for (let i = 0; i <=5; i++) {
             imagesCollection[i].src = `../assets/paralell/2/${backgroundViews[i]}`;
         }
-
+        imgSeven.src = "";
     }, 5000)
 
 
@@ -191,7 +191,7 @@ const showBackgroundThree = () => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
         saySomething.style.left="10%";
-        for (let i = 0; i <= 9; i++) {
+        for (let i = 0; i <= 8; i++) {
             imagesCollection[i].src = `../assets/paralell/3/${backgroundViews[i]}`;
         }
 
@@ -204,9 +204,11 @@ const showBackgroundFour = () => {
     setTimeout(() => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Było całkiem kolorowo,<br> jednak czegoś mi brakowało";
-        for (let i = 0; i <= 7; i++) {
+        for (let i = 0; i <= 6; i++) {
             imagesCollection[i].src = `../assets/paralell/4/${backgroundViews[i]}`;
         }
+        imgEight.src = "";
+        imgNine.src = "";
 
     }, 15000)
 
@@ -216,13 +218,15 @@ const showBackgroundFife = () => {
 
     setTimeout(() => {
         parallel.classList.add("view-one");
+        saySomething.style.color = "#f52e54";
         saySomething.innerHTML = "spełnienia, miejsca na kreatywność<br>łamania schematów<br>może po prostu czegoś nowego";
-        saySomething.style.color = "#0f546e";
-        for (let i = 0; i <= 6; i++) {
+        for (let i = 0; i <= 5; i++) {
             imagesCollection[i].src = `../assets/paralell/5/${backgroundViews[i]}`;
         }
 
+
     }, 20000)
+
 }
 
 const showBackgroundSix = () => {
@@ -231,7 +235,7 @@ const showBackgroundSix = () => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "W marzeniach często widziałam inne miejsce<br>...ale droga do niego prowadziła w nieznane";
         saySomething.style.color = "#0f546e";
-        for (let i = 0; i <= 7; i++) {
+        for (let i = 0; i < 7; i++) {
             imagesCollection[i].src = `../assets/paralell/6/${backgroundViews[i]}`;
         }
 
@@ -243,7 +247,7 @@ const showBackgroundSeven = () => {
     setTimeout(() => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "W sumie...<br>co mi tam<br>Zacznijmy przygodę!";
-        for (let i = 0; i <= 9; i++) {
+        for (let i = 0; i < 9; i++) {
             imagesCollection[i].src = `../assets/paralell/7/${backgroundViews[i]}`;
         }
 
@@ -255,7 +259,7 @@ const showBackgroundEight = () => {
     setTimeout(() => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Tylko w którą stronę się udać?<br>Jak znaleźć dobrą drogę?";
-        for (let i = 0; i <= 9; i++) {
+        for (let i = 0; i < 9; i++) {
             imagesCollection[i].src = `../assets/paralell/8/${backgroundViews[i]}`;
         }
 
@@ -268,7 +272,7 @@ const showBackgroundNine = () => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Wszystko co nieznane, budzi ekscytację</span><br>Tak było i teraz";
         saySomething.style.color = "#0f546e";
-        for (let i = 0; i <= 7; i++) {
+        for (let i = 0; i < 7; i++) {
             imagesCollection[i].src = `../assets/paralell/9/${backgroundViews[i]}`;
         }
 
@@ -281,7 +285,7 @@ const showBackgroundTen = () => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
         saySomething.style.color = "#0f546e";
-        for (let i = 0; i <= 5; i++) {
+        for (let i = 0; i < 5; i++) {
             imagesCollection[i].src = `../assets/paralell/10/${backgroundViews[i]}`;
         }
 
@@ -294,7 +298,7 @@ const showBackgroundEleven = () => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
         saySomething.style.color = "#0f546e";
-        for (let i = 0; i <= 8; i++) {
+        for (let i = 0; i < 8; i++) {
             imagesCollection[i].src = `../assets/paralell/11/${backgroundViews[i]}`;
         }
 
@@ -307,7 +311,7 @@ const showBackgroundTwelve = () => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
         saySomething.style.color = "#0f546e";
-        for (let i = 0; i <= 5; i++) {
+        for (let i = 0; i < 5; i++) {
             imagesCollection[i].src = `../assets/paralell/12/${backgroundViews[i]}`;
         }
 
@@ -320,7 +324,7 @@ const showBackgroundThirteen = () => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
         saySomething.style.color = "#0f546e";
-        for (let i = 0; i <= 5; i++) {
+        for (let i = 0; i < 5; i++) {
             imagesCollection[i].src = `../assets/paralell/13/${backgroundViews[i]}`;
         }
 
@@ -332,7 +336,7 @@ const showBackgroundFourteen = () => {
     setTimeout(() => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
-        for (let i = 0; i <= 5; i++) {
+        for (let i = 0; i < 5; i++) {
             imagesCollection[i].src = `../assets/paralell/14/${backgroundViews[i]}`;
         }
 
@@ -344,7 +348,7 @@ const showBackgroundFifteen = () => {
     setTimeout(() => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
-        for (let i = 0; i <= 5; i++) {
+        for (let i = 0; i < 5; i++) {
             imagesCollection[i].src = `../assets/paralell/15/${backgroundViews[i]}`;
         }
 
@@ -357,7 +361,7 @@ const showBackgroundSixteen = () => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
 
-        for (let i = 0; i <= 6; i++) {
+        for (let i = 0; i < 6; i++) {
             imagesCollection[i].src = `../assets/paralell/16/${backgroundViews[i]}`;
         }
 
@@ -369,7 +373,7 @@ const showBackgroundSeventeen = () => {
     setTimeout(() => {
         parallel.classList.add("view-one");
         saySomething.innerHTML = "Żartuję! Nie było aż tak źle<br> Lubiłam to co robię";
-        for (let i = 0; i <= 6; i++) {
+        for (let i = 0; i <- 6; i++) {
             imagesCollection[i].src = `../assets/paralell/17/${backgroundViews[i]}`;
         }
 
@@ -403,16 +407,14 @@ const screenMoveOne = () => {
 count = 0;
 
 const screenMoveTwo = () => {
-    clickCount();
     saySomething.style.bottom = 80 + count * -0.8 + '%';
-    imgTwo.style.bottom = 50 + count * -0.1 + '%';
-    imgThree.style.left = 26 + count * -0.5 + '%';
-    imgFour.style.left = count * 0.4 + '%';
+    // imgTwo.style.bottom = 50 + count * -0.1 + '%';
+    // imgFour.style.left = count * 0.4 + '%';
 }
 
 const screenMoveThree = () => {
     saySomething.style.bottom = 80 + count * -0.8 + '%';
-    imgTwo.style.bottom = 50 + count * -0.1 + '%';
+    imgTwo.style.left = 26 + count * -0.5 + '%';
     imgThree.style.left = 26 + count * -0.5 + '%';
     imgFour.style.left = count * 0.4 + '%';
     imgEight.style.left = count * 0.4 + '%';
@@ -537,19 +539,19 @@ createBackgroundOne()
 showBackgroundTwo()
 showBackgroundThree()
 showBackgroundFour()
-// showBackgroundFife()
-// showBackgroundSix()
-// showBackgroundSeven()
-// showBackgroundEight()
-// showBackgroundNine()
-// showBackgroundTen()
-// showBackgroundEleven()
-// showBackgroundTwelve()
-// showBackgroundThirteen()
-// showBackgroundFourteen()
-// showBackgroundFifteen()
-// showBackgroundSixteen()
-// showBackgroundSeventeen()
+showBackgroundFife()
+showBackgroundSix()
+showBackgroundSeven()
+showBackgroundEight()
+showBackgroundNine()
+showBackgroundTen()
+showBackgroundEleven()
+showBackgroundTwelve()
+showBackgroundThirteen()
+showBackgroundFourteen()
+showBackgroundFifteen()
+showBackgroundSixteen()
+showBackgroundSeventeen()
 characterWalk()
 
 
@@ -560,19 +562,19 @@ setTimeout(() => {
 }, 5000)
 
 setTimeout(() => {
-    parallel.addEventListener("click", screenMoveThree)
+    window.addEventListener("keypress", screenMoveThree)
 }, 10000)
 
 setTimeout(() => {
-    parallel.addEventListener("click", screenMoveFour)
+    window.addEventListener("keypress", screenMoveFour)
 }, 15000)
 
 setTimeout(() => {
-    parallel.addEventListener("click", screenMoveFife)
+    window.addEventListener("keypress", screenMoveFife)
 }, 20000)
 
 setTimeout(() => {
-    parallel.addEventListener("click", screenMoveSix)
+    parallel.addEventListener("keypress", screenMoveSix)
 }, 25000)
 
 setTimeout(() => {
